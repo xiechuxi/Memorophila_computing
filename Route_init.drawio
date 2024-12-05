@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
   <diagram name="Page-1" id="cmwPlCmycbIWN_uuMrKl">
-    <mxGraphModel>
+    <mxGraphModel dx="2406" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-2" target="0NKoQpCzWq8_N1xhZcgV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-2" value="Get sample input" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-220" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-5" target="0NKoQpCzWq8_N1xhZcgV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-5" value="Compare the similarity" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-60" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-8" target="0NKoQpCzWq8_N1xhZcgV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-8" value="Insert selected modulars &#xa;to the route" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="20" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-10" target="0NKoQpCzWq8_N1xhZcgV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="-390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-13" target="0NKoQpCzWq8_N1xhZcgV-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-13" value="Compute predictive input &#xa;for the next layer" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="100" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-15" target="0NKoQpCzWq8_N1xhZcgV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-15" value="Get candidates&#39; &#xa;past input" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-140" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-33" target="0NKoQpCzWq8_N1xhZcgV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NKoQpCzWq8_N1xhZcgV-35">
+          <mxGeometry x="0.0103" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-33" target="0NKoQpCzWq8_N1xhZcgV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-40" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NKoQpCzWq8_N1xhZcgV-39">
+          <mxGeometry x="0.216" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-33" value="If candidate layer is&amp;nbsp;&lt;div&gt;effector layer?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-300" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-34" target="0NKoQpCzWq8_N1xhZcgV-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-34" value="Insert the effector to the route&lt;div&gt;(whose AO launches the process)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="-130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NKoQpCzWq8_N1xhZcgV-41" target="0NKoQpCzWq8_N1xhZcgV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NKoQpCzWq8_N1xhZcgV-41" value="Send request &#xa;to the next layer" style="" vertex="1" parent="1">
+          <mxGeometry x="-55" y="180" width="135" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
