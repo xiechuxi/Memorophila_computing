@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="eqAB-IPZzA6YIxUvqVHz">
-    <mxGraphModel>
+    <mxGraphModel dx="1638" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-55" target="1P10Qb_LkOirrUuuiSdr-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-55" value="Divide the network to be integrated into &#xa;several sub-networks" style="" vertex="1" parent="1">
+          <mxGeometry x="-365" y="-450" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-60" target="1P10Qb_LkOirrUuuiSdr-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-60" value="Modify the route, &#xa;Let the sub-route modular s &#xa;to approximate front sub-model&#39;s output" style="" vertex="1" parent="1">
+          <mxGeometry x="-365" y="-290" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-64" target="1P10Qb_LkOirrUuuiSdr-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-64" value="Create a new effector(model&#39;s output) &#xa;and insert new perceptron(model&#39;s input)" style="" vertex="1" parent="1">
+          <mxGeometry x="-365" y="-530" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-67" target="1P10Qb_LkOirrUuuiSdr-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-73" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1P10Qb_LkOirrUuuiSdr-71">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-67" target="1P10Qb_LkOirrUuuiSdr-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-78" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1P10Qb_LkOirrUuuiSdr-77">
+          <mxGeometry x="0.248" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-67" value="If the list is empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="-210" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-68" target="1P10Qb_LkOirrUuuiSdr-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-68" value="Initialize global route " style="" vertex="1" parent="1">
+          <mxGeometry x="-365" y="-370" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1P10Qb_LkOirrUuuiSdr-74" target="1P10Qb_LkOirrUuuiSdr-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-74" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-272.5" y="-590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1P10Qb_LkOirrUuuiSdr-76" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-272.5" y="-100" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
